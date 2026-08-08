@@ -1,0 +1,1625 @@
+{
+  "generated_at": "2026-08-08T05:40:16.935355+00:00",
+  "runs": [
+    {
+      "config": "haiku, no validator",
+      "model": "claude-haiku-4-5-20251001",
+      "outcomes": [
+        {
+          "case_id": "case_001_cloud_hosting_taxed",
+          "expected_accounts": [
+            "2010",
+            "2200",
+            "6010"
+          ],
+          "actual_accounts": [
+            "2010",
+            "2200",
+            "6010"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3557,
+          "output_tokens": 391,
+          "error": null
+        },
+        {
+          "case_id": "case_002_legal_fees_untaxed",
+          "expected_accounts": [
+            "2010",
+            "6020"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6020"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3575,
+          "output_tokens": 331,
+          "error": null
+        },
+        {
+          "case_id": "case_003_laptops_capitalized",
+          "expected_accounts": [
+            "1500",
+            "2010",
+            "2200"
+          ],
+          "actual_accounts": [
+            "1500",
+            "2010",
+            "2200"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3689,
+          "output_tokens": 404,
+          "error": null
+        },
+        {
+          "case_id": "case_004_office_supplies_small",
+          "expected_accounts": [
+            "2010",
+            "6040"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6040"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3533,
+          "output_tokens": 332,
+          "error": null
+        },
+        {
+          "case_id": "case_005_mixed_software_and_consulting",
+          "expected_accounts": [
+            "2010",
+            "6010",
+            "6020"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6010",
+            "6020"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3781,
+          "output_tokens": 422,
+          "error": null
+        },
+        {
+          "case_id": "case_006_prepaid_insurance",
+          "expected_accounts": [
+            "1400",
+            "2010"
+          ],
+          "actual_accounts": [
+            "1400",
+            "2010"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3505,
+          "output_tokens": 349,
+          "error": null
+        },
+        {
+          "case_id": "case_007_travel_airfare_hotel",
+          "expected_accounts": [
+            "2010",
+            "6050"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6050"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3502,
+          "output_tokens": 307,
+          "error": null
+        },
+        {
+          "case_id": "case_008_conference_booth",
+          "expected_accounts": [
+            "2010",
+            "2200",
+            "6030"
+          ],
+          "actual_accounts": [
+            "2010",
+            "2200",
+            "6030"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3522,
+          "output_tokens": 384,
+          "error": null
+        },
+        {
+          "case_id": "case_009_rent_and_utilities",
+          "expected_accounts": [
+            "2010",
+            "6060"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6060"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3499,
+          "output_tokens": 366,
+          "error": null
+        },
+        {
+          "case_id": "case_010_payment_processor_fees",
+          "expected_accounts": [
+            "2010",
+            "6070"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6070"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3577,
+          "output_tokens": 313,
+          "error": null
+        },
+        {
+          "case_id": "case_011_inventory_purchase",
+          "expected_accounts": [
+            "2010",
+            "2200",
+            "5010"
+          ],
+          "actual_accounts": [
+            "2010",
+            "2200",
+            "5010"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3831,
+          "output_tokens": 391,
+          "error": null
+        },
+        {
+          "case_id": "case_012_prepaid_annual_saas",
+          "expected_accounts": [
+            "1400",
+            "2010"
+          ],
+          "actual_accounts": [
+            "1400",
+            "2010"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3591,
+          "output_tokens": 388,
+          "error": null
+        },
+        {
+          "case_id": "case_013_mixed_equipment_and_supplies",
+          "expected_accounts": [
+            "1500",
+            "2010",
+            "2200",
+            "6040"
+          ],
+          "actual_accounts": [
+            "1500",
+            "2010",
+            "2200"
+          ],
+          "posted": true,
+          "exact_match": false,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3718,
+          "output_tokens": 482,
+          "error": null
+        },
+        {
+          "case_id": "case_014_design_contractor",
+          "expected_accounts": [
+            "2010",
+            "6020"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6020"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3570,
+          "output_tokens": 342,
+          "error": null
+        },
+        {
+          "case_id": "case_015_cloud_compute_untaxed",
+          "expected_accounts": [
+            "2010",
+            "6010"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6010"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3559,
+          "output_tokens": 329,
+          "error": null
+        },
+        {
+          "case_id": "case_016_coworking_membership",
+          "expected_accounts": [
+            "2010",
+            "6060"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6060"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3516,
+          "output_tokens": 338,
+          "error": null
+        },
+        {
+          "case_id": "case_017_paid_advertising",
+          "expected_accounts": [
+            "2010",
+            "2200",
+            "6030"
+          ],
+          "actual_accounts": [
+            "2010",
+            "2200",
+            "6030"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3497,
+          "output_tokens": 353,
+          "error": null
+        },
+        {
+          "case_id": "case_018_client_dinner",
+          "expected_accounts": [
+            "2010",
+            "6050"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6050"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3453,
+          "output_tokens": 310,
+          "error": null
+        },
+        {
+          "case_id": "case_019_hosting_plus_services_taxed",
+          "expected_accounts": [
+            "2010",
+            "2200",
+            "6010",
+            "6020"
+          ],
+          "actual_accounts": [
+            "2010",
+            "2200",
+            "6010",
+            "6020"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3837,
+          "output_tokens": 469,
+          "error": null
+        },
+        {
+          "case_id": "case_020_bank_and_fx_fees",
+          "expected_accounts": [
+            "2010",
+            "6070"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6070"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3612,
+          "output_tokens": 384,
+          "error": null
+        }
+      ]
+    },
+    {
+      "config": "haiku, with validator",
+      "model": "claude-haiku-4-5-20251001",
+      "outcomes": [
+        {
+          "case_id": "case_001_cloud_hosting_taxed",
+          "expected_accounts": [
+            "2010",
+            "2200",
+            "6010"
+          ],
+          "actual_accounts": [
+            "2010",
+            "2200",
+            "6010"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 3,
+          "validation_calls": 1,
+          "post_attempts": 1,
+          "input_tokens": 7082,
+          "output_tokens": 610,
+          "error": null
+        },
+        {
+          "case_id": "case_002_legal_fees_untaxed",
+          "expected_accounts": [
+            "2010",
+            "6020"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6020"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 3,
+          "validation_calls": 1,
+          "post_attempts": 1,
+          "input_tokens": 7081,
+          "output_tokens": 521,
+          "error": null
+        },
+        {
+          "case_id": "case_003_laptops_capitalized",
+          "expected_accounts": [
+            "1500",
+            "2010",
+            "2200"
+          ],
+          "actual_accounts": [
+            "1500",
+            "2010",
+            "2200"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 3,
+          "validation_calls": 1,
+          "post_attempts": 1,
+          "input_tokens": 6948,
+          "output_tokens": 574,
+          "error": null
+        },
+        {
+          "case_id": "case_004_office_supplies_small",
+          "expected_accounts": [
+            "2010",
+            "6040"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6040"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 3,
+          "validation_calls": 1,
+          "post_attempts": 1,
+          "input_tokens": 7036,
+          "output_tokens": 595,
+          "error": null
+        },
+        {
+          "case_id": "case_005_mixed_software_and_consulting",
+          "expected_accounts": [
+            "2010",
+            "6010",
+            "6020"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6010",
+            "6020"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 3,
+          "validation_calls": 1,
+          "post_attempts": 1,
+          "input_tokens": 7536,
+          "output_tokens": 648,
+          "error": null
+        },
+        {
+          "case_id": "case_006_prepaid_insurance",
+          "expected_accounts": [
+            "1400",
+            "2010"
+          ],
+          "actual_accounts": [
+            "1400",
+            "2010"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 3,
+          "validation_calls": 1,
+          "post_attempts": 1,
+          "input_tokens": 6960,
+          "output_tokens": 532,
+          "error": null
+        },
+        {
+          "case_id": "case_007_travel_airfare_hotel",
+          "expected_accounts": [
+            "2010",
+            "6050"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6050"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 3,
+          "validation_calls": 1,
+          "post_attempts": 1,
+          "input_tokens": 6904,
+          "output_tokens": 489,
+          "error": null
+        },
+        {
+          "case_id": "case_008_conference_booth",
+          "expected_accounts": [
+            "2010",
+            "2200",
+            "6030"
+          ],
+          "actual_accounts": [
+            "2010",
+            "2200",
+            "6030"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 3,
+          "validation_calls": 1,
+          "post_attempts": 1,
+          "input_tokens": 6993,
+          "output_tokens": 612,
+          "error": null
+        },
+        {
+          "case_id": "case_009_rent_and_utilities",
+          "expected_accounts": [
+            "2010",
+            "6060"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6060"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 3,
+          "validation_calls": 1,
+          "post_attempts": 1,
+          "input_tokens": 6939,
+          "output_tokens": 570,
+          "error": null
+        },
+        {
+          "case_id": "case_010_payment_processor_fees",
+          "expected_accounts": [
+            "2010",
+            "6070"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6070"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 3,
+          "validation_calls": 1,
+          "post_attempts": 1,
+          "input_tokens": 7081,
+          "output_tokens": 505,
+          "error": null
+        },
+        {
+          "case_id": "case_011_inventory_purchase",
+          "expected_accounts": [
+            "2010",
+            "2200",
+            "5010"
+          ],
+          "actual_accounts": [
+            "2010",
+            "2200",
+            "5010"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 3,
+          "validation_calls": 1,
+          "post_attempts": 1,
+          "input_tokens": 7705,
+          "output_tokens": 691,
+          "error": null
+        },
+        {
+          "case_id": "case_012_prepaid_annual_saas",
+          "expected_accounts": [
+            "1400",
+            "2010"
+          ],
+          "actual_accounts": [
+            "1400",
+            "2010"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 1,
+          "post_attempts": 1,
+          "input_tokens": 4560,
+          "output_tokens": 491,
+          "error": null
+        },
+        {
+          "case_id": "case_013_mixed_equipment_and_supplies",
+          "expected_accounts": [
+            "1500",
+            "2010",
+            "2200",
+            "6040"
+          ],
+          "actual_accounts": [
+            "1500",
+            "2010",
+            "2200"
+          ],
+          "posted": true,
+          "exact_match": false,
+          "iterations": 3,
+          "validation_calls": 1,
+          "post_attempts": 1,
+          "input_tokens": 7399,
+          "output_tokens": 704,
+          "error": null
+        },
+        {
+          "case_id": "case_014_design_contractor",
+          "expected_accounts": [
+            "2010",
+            "6020"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6020"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 3,
+          "validation_calls": 1,
+          "post_attempts": 1,
+          "input_tokens": 6977,
+          "output_tokens": 511,
+          "error": null
+        },
+        {
+          "case_id": "case_015_cloud_compute_untaxed",
+          "expected_accounts": [
+            "2010",
+            "6010"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6010"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 3,
+          "validation_calls": 1,
+          "post_attempts": 1,
+          "input_tokens": 7025,
+          "output_tokens": 489,
+          "error": null
+        },
+        {
+          "case_id": "case_016_coworking_membership",
+          "expected_accounts": [
+            "2010",
+            "6060"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6060"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 3,
+          "validation_calls": 1,
+          "post_attempts": 1,
+          "input_tokens": 6978,
+          "output_tokens": 534,
+          "error": null
+        },
+        {
+          "case_id": "case_017_paid_advertising",
+          "expected_accounts": [
+            "2010",
+            "2200",
+            "6030"
+          ],
+          "actual_accounts": [
+            "2010",
+            "2200",
+            "6030"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 3,
+          "validation_calls": 1,
+          "post_attempts": 1,
+          "input_tokens": 6932,
+          "output_tokens": 573,
+          "error": null
+        },
+        {
+          "case_id": "case_018_client_dinner",
+          "expected_accounts": [
+            "2010",
+            "6050"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6050"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 3,
+          "validation_calls": 1,
+          "post_attempts": 1,
+          "input_tokens": 6847,
+          "output_tokens": 506,
+          "error": null
+        },
+        {
+          "case_id": "case_019_hosting_plus_services_taxed",
+          "expected_accounts": [
+            "2010",
+            "2200",
+            "6010",
+            "6020"
+          ],
+          "actual_accounts": [
+            "2010",
+            "2200",
+            "6010",
+            "6020"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 3,
+          "validation_calls": 1,
+          "post_attempts": 1,
+          "input_tokens": 7644,
+          "output_tokens": 720,
+          "error": null
+        },
+        {
+          "case_id": "case_020_bank_and_fx_fees",
+          "expected_accounts": [
+            "2010",
+            "6070"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6070"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 3,
+          "validation_calls": 1,
+          "post_attempts": 1,
+          "input_tokens": 7162,
+          "output_tokens": 584,
+          "error": null
+        }
+      ]
+    },
+    {
+      "config": "sonnet, no validator",
+      "model": "claude-sonnet-4-5-20250929",
+      "outcomes": [
+        {
+          "case_id": "case_001_cloud_hosting_taxed",
+          "expected_accounts": [
+            "2010",
+            "2200",
+            "6010"
+          ],
+          "actual_accounts": [
+            "2010",
+            "2200",
+            "6010"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3560,
+          "output_tokens": 424,
+          "error": null
+        },
+        {
+          "case_id": "case_002_legal_fees_untaxed",
+          "expected_accounts": [
+            "2010",
+            "6020"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6020"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3573,
+          "output_tokens": 338,
+          "error": null
+        },
+        {
+          "case_id": "case_003_laptops_capitalized",
+          "expected_accounts": [
+            "1500",
+            "2010",
+            "2200"
+          ],
+          "actual_accounts": [
+            "1500",
+            "2010",
+            "2200"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3507,
+          "output_tokens": 356,
+          "error": null
+        },
+        {
+          "case_id": "case_004_office_supplies_small",
+          "expected_accounts": [
+            "2010",
+            "6040"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6040"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3533,
+          "output_tokens": 325,
+          "error": null
+        },
+        {
+          "case_id": "case_005_mixed_software_and_consulting",
+          "expected_accounts": [
+            "2010",
+            "6010",
+            "6020"
+          ],
+          "actual_accounts": [
+            "1400",
+            "2010",
+            "6020"
+          ],
+          "posted": true,
+          "exact_match": false,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3783,
+          "output_tokens": 441,
+          "error": null
+        },
+        {
+          "case_id": "case_006_prepaid_insurance",
+          "expected_accounts": [
+            "1400",
+            "2010"
+          ],
+          "actual_accounts": [
+            "1400",
+            "2010"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3504,
+          "output_tokens": 354,
+          "error": null
+        },
+        {
+          "case_id": "case_007_travel_airfare_hotel",
+          "expected_accounts": [
+            "2010",
+            "6050"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6050"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3498,
+          "output_tokens": 302,
+          "error": null
+        },
+        {
+          "case_id": "case_008_conference_booth",
+          "expected_accounts": [
+            "2010",
+            "2200",
+            "6030"
+          ],
+          "actual_accounts": [
+            "2010",
+            "2200",
+            "6030"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3521,
+          "output_tokens": 483,
+          "error": null
+        },
+        {
+          "case_id": "case_009_rent_and_utilities",
+          "expected_accounts": [
+            "2010",
+            "6060"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6060"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3507,
+          "output_tokens": 354,
+          "error": null
+        },
+        {
+          "case_id": "case_010_payment_processor_fees",
+          "expected_accounts": [
+            "2010",
+            "6070"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6070"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3577,
+          "output_tokens": 322,
+          "error": null
+        },
+        {
+          "case_id": "case_011_inventory_purchase",
+          "expected_accounts": [
+            "2010",
+            "2200",
+            "5010"
+          ],
+          "actual_accounts": [
+            "2010",
+            "2200",
+            "5010"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 4015,
+          "output_tokens": 485,
+          "error": null
+        },
+        {
+          "case_id": "case_012_prepaid_annual_saas",
+          "expected_accounts": [
+            "1400",
+            "2010"
+          ],
+          "actual_accounts": [
+            "1400",
+            "2010"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3529,
+          "output_tokens": 345,
+          "error": null
+        },
+        {
+          "case_id": "case_013_mixed_equipment_and_supplies",
+          "expected_accounts": [
+            "1500",
+            "2010",
+            "2200",
+            "6040"
+          ],
+          "actual_accounts": [
+            "1500",
+            "2010",
+            "2200"
+          ],
+          "posted": true,
+          "exact_match": false,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3535,
+          "output_tokens": 359,
+          "error": null
+        },
+        {
+          "case_id": "case_014_design_contractor",
+          "expected_accounts": [
+            "2010",
+            "6020"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6020"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3492,
+          "output_tokens": 331,
+          "error": null
+        },
+        {
+          "case_id": "case_015_cloud_compute_untaxed",
+          "expected_accounts": [
+            "2010",
+            "6010"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6010"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3555,
+          "output_tokens": 324,
+          "error": null
+        },
+        {
+          "case_id": "case_016_coworking_membership",
+          "expected_accounts": [
+            "2010",
+            "6060"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6060"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3512,
+          "output_tokens": 344,
+          "error": null
+        },
+        {
+          "case_id": "case_017_paid_advertising",
+          "expected_accounts": [
+            "2010",
+            "2200",
+            "6030"
+          ],
+          "actual_accounts": [
+            "2010",
+            "2200",
+            "6030"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3498,
+          "output_tokens": 358,
+          "error": null
+        },
+        {
+          "case_id": "case_018_client_dinner",
+          "expected_accounts": [
+            "2010",
+            "6050"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6050"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3449,
+          "output_tokens": 299,
+          "error": null
+        },
+        {
+          "case_id": "case_019_hosting_plus_services_taxed",
+          "expected_accounts": [
+            "2010",
+            "2200",
+            "6010",
+            "6020"
+          ],
+          "actual_accounts": [
+            "2010",
+            "2200",
+            "6010",
+            "6020"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3702,
+          "output_tokens": 546,
+          "error": null
+        },
+        {
+          "case_id": "case_020_bank_and_fx_fees",
+          "expected_accounts": [
+            "2010",
+            "6070"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6070"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 3609,
+          "output_tokens": 324,
+          "error": null
+        }
+      ]
+    },
+    {
+      "config": "sonnet, with validator",
+      "model": "claude-sonnet-4-5-20250929",
+      "outcomes": [
+        {
+          "case_id": "case_001_cloud_hosting_taxed",
+          "expected_accounts": [
+            "2010",
+            "2200",
+            "6010"
+          ],
+          "actual_accounts": [
+            "2010",
+            "2200",
+            "6010"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 4416,
+          "output_tokens": 439,
+          "error": null
+        },
+        {
+          "case_id": "case_002_legal_fees_untaxed",
+          "expected_accounts": [
+            "2010",
+            "6020"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6020"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 4495,
+          "output_tokens": 341,
+          "error": null
+        },
+        {
+          "case_id": "case_003_laptops_capitalized",
+          "expected_accounts": [
+            "1500",
+            "2010",
+            "2200"
+          ],
+          "actual_accounts": [
+            "1500",
+            "2010",
+            "2200"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 4417,
+          "output_tokens": 433,
+          "error": null
+        },
+        {
+          "case_id": "case_004_office_supplies_small",
+          "expected_accounts": [
+            "2010",
+            "6040"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6040"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 4446,
+          "output_tokens": 337,
+          "error": null
+        },
+        {
+          "case_id": "case_005_mixed_software_and_consulting",
+          "expected_accounts": [
+            "2010",
+            "6010",
+            "6020"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6010",
+            "6020"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 3,
+          "validation_calls": 1,
+          "post_attempts": 1,
+          "input_tokens": 7552,
+          "output_tokens": 670,
+          "error": null
+        },
+        {
+          "case_id": "case_006_prepaid_insurance",
+          "expected_accounts": [
+            "1400",
+            "2010"
+          ],
+          "actual_accounts": [
+            "1400",
+            "2010"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 4458,
+          "output_tokens": 401,
+          "error": null
+        },
+        {
+          "case_id": "case_007_travel_airfare_hotel",
+          "expected_accounts": [
+            "2010",
+            "6050"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6050"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 4408,
+          "output_tokens": 302,
+          "error": null
+        },
+        {
+          "case_id": "case_008_conference_booth",
+          "expected_accounts": [
+            "2010",
+            "2200",
+            "6030"
+          ],
+          "actual_accounts": [
+            "2010",
+            "2200",
+            "6030"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 4432,
+          "output_tokens": 471,
+          "error": null
+        },
+        {
+          "case_id": "case_009_rent_and_utilities",
+          "expected_accounts": [
+            "2010",
+            "6060"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6060"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 4417,
+          "output_tokens": 354,
+          "error": null
+        },
+        {
+          "case_id": "case_010_payment_processor_fees",
+          "expected_accounts": [
+            "2010",
+            "6070"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6070"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 4485,
+          "output_tokens": 318,
+          "error": null
+        },
+        {
+          "case_id": "case_011_inventory_purchase",
+          "expected_accounts": [
+            "2010",
+            "2200",
+            "5010"
+          ],
+          "actual_accounts": [
+            "2010",
+            "2200",
+            "5010"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 4924,
+          "output_tokens": 472,
+          "error": null
+        },
+        {
+          "case_id": "case_012_prepaid_annual_saas",
+          "expected_accounts": [
+            "1400",
+            "2010"
+          ],
+          "actual_accounts": [
+            "1400",
+            "2010"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 4443,
+          "output_tokens": 357,
+          "error": null
+        },
+        {
+          "case_id": "case_013_mixed_equipment_and_supplies",
+          "expected_accounts": [
+            "1500",
+            "2010",
+            "2200",
+            "6040"
+          ],
+          "actual_accounts": [
+            "1500",
+            "2010",
+            "2200"
+          ],
+          "posted": true,
+          "exact_match": false,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 4444,
+          "output_tokens": 441,
+          "error": null
+        },
+        {
+          "case_id": "case_014_design_contractor",
+          "expected_accounts": [
+            "2010",
+            "6020"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6020"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 4403,
+          "output_tokens": 321,
+          "error": null
+        },
+        {
+          "case_id": "case_015_cloud_compute_untaxed",
+          "expected_accounts": [
+            "2010",
+            "6010"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6010"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 4467,
+          "output_tokens": 326,
+          "error": null
+        },
+        {
+          "case_id": "case_016_coworking_membership",
+          "expected_accounts": [
+            "2010",
+            "6060"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6060"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 4422,
+          "output_tokens": 339,
+          "error": null
+        },
+        {
+          "case_id": "case_017_paid_advertising",
+          "expected_accounts": [
+            "2010",
+            "2200",
+            "6030"
+          ],
+          "actual_accounts": [
+            "2010",
+            "2200",
+            "6030"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 4800,
+          "output_tokens": 433,
+          "error": null
+        },
+        {
+          "case_id": "case_018_client_dinner",
+          "expected_accounts": [
+            "2010",
+            "6050"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6050"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 4359,
+          "output_tokens": 297,
+          "error": null
+        },
+        {
+          "case_id": "case_019_hosting_plus_services_taxed",
+          "expected_accounts": [
+            "2010",
+            "2200",
+            "6010",
+            "6020"
+          ],
+          "actual_accounts": [
+            "2010",
+            "2200",
+            "6010",
+            "6020"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 4611,
+          "output_tokens": 527,
+          "error": null
+        },
+        {
+          "case_id": "case_020_bank_and_fx_fees",
+          "expected_accounts": [
+            "2010",
+            "6070"
+          ],
+          "actual_accounts": [
+            "2010",
+            "6070"
+          ],
+          "posted": true,
+          "exact_match": true,
+          "iterations": 2,
+          "validation_calls": 0,
+          "post_attempts": 1,
+          "input_tokens": 4520,
+          "output_tokens": 330,
+          "error": null
+        }
+      ]
+    }
+  ]
+}
