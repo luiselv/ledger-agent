@@ -1,0 +1,31 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - run: uv sync --extra dev
+
+      - name: lint
+        run: uv run ruff check .
+
+      - name: types
+        run: uv run mypy
+
+      # No ANTHROPIC_API_KEY is set here, and that is deliberate: every test in the
+      # suite covers deterministic logic — validation, scoring, dataset integrity —
+      # so CI stays fast, free and reproducible. The LLM runs live in eval/, invoked
+      # by hand.
+      - name: tests
+        run: uv run pytest -q
