@@ -1,0 +1,216 @@
+{
+  "version": 1,
+  "description": "Synthetic vendor invoices for evaluating the ledger agent. Every vendor, invoice number and amount is fabricated for testing; none of these describe a real transaction. Labels are hand-written and hand-verified.",
+  "cases": [
+    {
+      "case_id": "case_001_cloud_hosting_taxed",
+      "file": "case_001_cloud_hosting_taxed.txt",
+      "expected_accounts": [
+        "6010",
+        "2200",
+        "2010"
+      ],
+      "expected_total": "1302.00",
+      "notes": "Straightforward recurring SaaS with recoverable sales tax."
+    },
+    {
+      "case_id": "case_002_legal_fees_untaxed",
+      "file": "case_002_legal_fees_untaxed.txt",
+      "expected_accounts": [
+        "6020",
+        "2010"
+      ],
+      "expected_total": "3500.00",
+      "notes": "No tax line; a spurious 2200 line would be wrong."
+    },
+    {
+      "case_id": "case_003_laptops_capitalized",
+      "file": "case_003_laptops_capitalized.txt",
+      "expected_accounts": [
+        "1500",
+        "2200",
+        "2010"
+      ],
+      "expected_total": "4014.50",
+      "notes": "Capital equipment, not office supplies. Tests the capitalization boundary."
+    },
+    {
+      "case_id": "case_004_office_supplies_small",
+      "file": "case_004_office_supplies_small.txt",
+      "expected_accounts": [
+        "6040",
+        "2010"
+      ],
+      "expected_total": "128.40",
+      "notes": "Two lines, one account. Tests that the agent groups rather than over-splitting."
+    },
+    {
+      "case_id": "case_005_mixed_software_and_consulting",
+      "file": "case_005_mixed_software_and_consulting.txt",
+      "expected_accounts": [
+        "6010",
+        "6020",
+        "2010"
+      ],
+      "expected_total": "2500.00",
+      "notes": "One invoice, two expense accounts. Tests per-line classification."
+    },
+    {
+      "case_id": "case_006_prepaid_insurance",
+      "file": "case_006_prepaid_insurance.txt",
+      "expected_accounts": [
+        "1400",
+        "2010"
+      ],
+      "expected_total": "6000.00",
+      "notes": "Twelve months of coverage paid up front: an asset, not a period expense."
+    },
+    {
+      "case_id": "case_007_travel_airfare_hotel",
+      "file": "case_007_travel_airfare_hotel.txt",
+      "expected_accounts": [
+        "6050",
+        "2010"
+      ],
+      "expected_total": "1497.30",
+      "notes": "Both lines are travel; a single expense account."
+    },
+    {
+      "case_id": "case_008_conference_booth",
+      "file": "case_008_conference_booth.txt",
+      "expected_accounts": [
+        "6030",
+        "2200",
+        "2010"
+      ],
+      "expected_total": "4882.50",
+      "notes": "Trade show spend is demand generation, not travel."
+    },
+    {
+      "case_id": "case_009_rent_and_utilities",
+      "file": "case_009_rent_and_utilities.txt",
+      "expected_accounts": [
+        "6060",
+        "2010"
+      ],
+      "expected_total": "5540.00",
+      "notes": "Rent and utilities share one account in this chart."
+    },
+    {
+      "case_id": "case_010_payment_processor_fees",
+      "file": "case_010_payment_processor_fees.txt",
+      "expected_accounts": [
+        "6070",
+        "2010"
+      ],
+      "expected_total": "287.65",
+      "notes": "Processor fees, not cost of goods sold."
+    },
+    {
+      "case_id": "case_011_inventory_purchase",
+      "file": "case_011_inventory_purchase.txt",
+      "expected_accounts": [
+        "5010",
+        "2200",
+        "2010"
+      ],
+      "expected_total": "5425.00",
+      "notes": "Goods bought for resale: COGS, not an operating expense."
+    },
+    {
+      "case_id": "case_012_prepaid_annual_saas",
+      "file": "case_012_prepaid_annual_saas.txt",
+      "expected_accounts": [
+        "1400",
+        "2010"
+      ],
+      "expected_total": "14400.00",
+      "notes": "The hard case: it is software, but prepaid for twelve months, so it is a prepaid asset rather than a period subscription expense."
+    },
+    {
+      "case_id": "case_013_mixed_equipment_and_supplies",
+      "file": "case_013_mixed_equipment_and_supplies.txt",
+      "expected_accounts": [
+        "1500",
+        "6040",
+        "2200",
+        "2010"
+      ],
+      "expected_total": "1448.48",
+      "notes": "Four accounts. Splits capital equipment from consumables on one invoice."
+    },
+    {
+      "case_id": "case_014_design_contractor",
+      "file": "case_014_design_contractor.txt",
+      "expected_accounts": [
+        "6020",
+        "2010"
+      ],
+      "expected_total": "2750.00",
+      "notes": "Outside contractor: professional fees, not marketing spend."
+    },
+    {
+      "case_id": "case_015_cloud_compute_untaxed",
+      "file": "case_015_cloud_compute_untaxed.txt",
+      "expected_accounts": [
+        "6010",
+        "2010"
+      ],
+      "expected_total": "2340.00",
+      "notes": "Same vendor as case 001 but no tax; guards against copying the earlier shape."
+    },
+    {
+      "case_id": "case_016_coworking_membership",
+      "file": "case_016_coworking_membership.txt",
+      "expected_accounts": [
+        "6060",
+        "2010"
+      ],
+      "expected_total": "1800.00",
+      "notes": "Co-working belongs with rent and facilities."
+    },
+    {
+      "case_id": "case_017_paid_advertising",
+      "file": "case_017_paid_advertising.txt",
+      "expected_accounts": [
+        "6030",
+        "2200",
+        "2010"
+      ],
+      "expected_total": "8137.50",
+      "notes": "Straight advertising spend with tax."
+    },
+    {
+      "case_id": "case_018_client_dinner",
+      "file": "case_018_client_dinner.txt",
+      "expected_accounts": [
+        "6050",
+        "2010"
+      ],
+      "expected_total": "412.85",
+      "notes": "Entertainment shares the travel account in this chart."
+    },
+    {
+      "case_id": "case_019_hosting_plus_services_taxed",
+      "file": "case_019_hosting_plus_services_taxed.txt",
+      "expected_accounts": [
+        "6010",
+        "6020",
+        "2200",
+        "2010"
+      ],
+      "expected_total": "4665.50",
+      "notes": "Widest entry: two expense accounts plus tax plus payable."
+    },
+    {
+      "case_id": "case_020_bank_and_fx_fees",
+      "file": "case_020_bank_and_fx_fees.txt",
+      "expected_accounts": [
+        "6070",
+        "2010"
+      ],
+      "expected_total": "173.40",
+      "notes": "Bank charges, not professional fees."
+    }
+  ]
+}

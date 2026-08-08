@@ -1,0 +1,20 @@
+WANDERPORT TRAVEL SERVICES
+====================================================================
+
+INVOICE WT-55618
+Invoice date: 2026-02-12
+Bill to: Acme Robotics Inc., 44 Foundry Row, Portland OR
+Payment terms: Net 30    Currency: USD
+
+--------------------------------------------------------------------
+DESCRIPTION                                   QTY     UNIT    AMOUNT
+--------------------------------------------------------------------
+Round-trip airfare, LIM-JFK                     1   842.30    842.30
+Hotel, 4 nights                                 4   163.75    655.00
+--------------------------------------------------------------------
+                                                  Subtotal  1,497.30
+                                                 TOTAL DUE  1,497.30
+
+Remit within 30 days. This invoice is unpaid at the time of receipt.
+
+[SYNTHETIC TEST FIXTURE — this vendor and invoice are fictional.]

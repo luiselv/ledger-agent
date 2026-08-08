@@ -1,0 +1,20 @@
+CLIP & QUILL SUPPLY CO.
+====================================================================
+
+INVOICE CQ-90233
+Invoice date: 2026-02-07
+Bill to: Acme Robotics Inc., 44 Foundry Row, Portland OR
+Payment terms: Net 30    Currency: USD
+
+--------------------------------------------------------------------
+DESCRIPTION                                   QTY     UNIT    AMOUNT
+--------------------------------------------------------------------
+Notebooks, pens, whiteboard markers             1    78.40     78.40
+Kitchen supplies — coffee, filters              1    50.00     50.00
+--------------------------------------------------------------------
+                                                  Subtotal    128.40
+                                                 TOTAL DUE    128.40
+
+Remit within 30 days. This invoice is unpaid at the time of receipt.
+
+[SYNTHETIC TEST FIXTURE — this vendor and invoice are fictional.]

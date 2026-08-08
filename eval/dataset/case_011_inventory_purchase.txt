@@ -1,0 +1,21 @@
+ALDER & FINCH TRADING
+====================================================================
+
+INVOICE AFT-6620
+Invoice date: 2026-02-18
+Bill to: Acme Robotics Inc., 44 Foundry Row, Portland OR
+Payment terms: Net 30    Currency: USD
+
+--------------------------------------------------------------------
+DESCRIPTION                                   QTY     UNIT    AMOUNT
+--------------------------------------------------------------------
+Branded hardware units for resale, SKU AF-2   400    12.50  5,000.00
+20                                          
+--------------------------------------------------------------------
+                                                  Subtotal  5,000.00
+                                          Sales tax (8.5%)    425.00
+                                                 TOTAL DUE  5,425.00
+
+Remit within 30 days. This invoice is unpaid at the time of receipt.
+
+[SYNTHETIC TEST FIXTURE — this vendor and invoice are fictional.]

@@ -1,0 +1,19 @@
+DESKHIVE COWORKING
+====================================================================
+
+INVOICE DH-3390
+Invoice date: 2026-02-25
+Bill to: Acme Robotics Inc., 44 Foundry Row, Portland OR
+Payment terms: Net 30    Currency: USD
+
+--------------------------------------------------------------------
+DESCRIPTION                                   QTY     UNIT    AMOUNT
+--------------------------------------------------------------------
+Dedicated desk membership — March 2026          6   300.00  1,800.00
+--------------------------------------------------------------------
+                                                  Subtotal  1,800.00
+                                                 TOTAL DUE  1,800.00
+
+Remit within 30 days. This invoice is unpaid at the time of receipt.
+
+[SYNTHETIC TEST FIXTURE — this vendor and invoice are fictional.]

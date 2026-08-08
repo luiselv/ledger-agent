@@ -1,0 +1,20 @@
+LANTERN MEDIA BUYING
+====================================================================
+
+INVOICE LMB-20260226
+Invoice date: 2026-02-26
+Bill to: Acme Robotics Inc., 44 Foundry Row, Portland OR
+Payment terms: Net 30    Currency: USD
+
+--------------------------------------------------------------------
+DESCRIPTION                                   QTY     UNIT    AMOUNT
+--------------------------------------------------------------------
+Programmatic ad placement — February flight     1 7,500.00  7,500.00
+--------------------------------------------------------------------
+                                                  Subtotal  7,500.00
+                                          Sales tax (8.5%)    637.50
+                                                 TOTAL DUE  8,137.50
+
+Remit within 30 days. This invoice is unpaid at the time of receipt.
+
+[SYNTHETIC TEST FIXTURE — this vendor and invoice are fictional.]

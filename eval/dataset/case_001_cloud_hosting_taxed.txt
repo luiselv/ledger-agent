@@ -1,0 +1,20 @@
+NORTHWIND CLOUD SYSTEMS
+====================================================================
+
+INVOICE NWC-8841
+Invoice date: 2026-02-03
+Bill to: Acme Robotics Inc., 44 Foundry Row, Portland OR
+Payment terms: Net 30    Currency: USD
+
+--------------------------------------------------------------------
+DESCRIPTION                                   QTY     UNIT    AMOUNT
+--------------------------------------------------------------------
+Managed Kubernetes hosting — February 2026      1 1,200.00  1,200.00
+--------------------------------------------------------------------
+                                                  Subtotal  1,200.00
+                                          Sales tax (8.5%)    102.00
+                                                 TOTAL DUE  1,302.00
+
+Remit within 30 days. This invoice is unpaid at the time of receipt.
+
+[SYNTHETIC TEST FIXTURE — this vendor and invoice are fictional.]

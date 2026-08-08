@@ -1,0 +1,21 @@
+VERITYSCOPE ANALYTICS
+====================================================================
+
+INVOICE VS-2026-0042
+Invoice date: 2026-02-19
+Bill to: Acme Robotics Inc., 44 Foundry Row, Portland OR
+Payment terms: Net 30    Currency: USD
+
+--------------------------------------------------------------------
+DESCRIPTION                                   QTY     UNIT    AMOUNT
+--------------------------------------------------------------------
+Enterprise platform subscription, prepaid a     114,400.00 14,400.00
+nnually, service period 01 Mar 2026 - 28 Fe 
+b 2027                                      
+--------------------------------------------------------------------
+                                                  Subtotal 14,400.00
+                                                 TOTAL DUE 14,400.00
+
+Remit within 30 days. This invoice is unpaid at the time of receipt.
+
+[SYNTHETIC TEST FIXTURE — this vendor and invoice are fictional.]

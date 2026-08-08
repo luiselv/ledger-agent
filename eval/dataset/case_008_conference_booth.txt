@@ -1,0 +1,20 @@
+SUMMIT EXPO GROUP
+====================================================================
+
+INVOICE SEG-2026-441
+Invoice date: 2026-02-13
+Bill to: Acme Robotics Inc., 44 Foundry Row, Portland OR
+Payment terms: Net 30    Currency: USD
+
+--------------------------------------------------------------------
+DESCRIPTION                                   QTY     UNIT    AMOUNT
+--------------------------------------------------------------------
+Exhibitor booth, FinTech Summit 2026 — 3x3m     1 4,500.00  4,500.00
+--------------------------------------------------------------------
+                                                  Subtotal  4,500.00
+                                          Sales tax (8.5%)    382.50
+                                                 TOTAL DUE  4,882.50
+
+Remit within 30 days. This invoice is unpaid at the time of receipt.
+
+[SYNTHETIC TEST FIXTURE — this vendor and invoice are fictional.]

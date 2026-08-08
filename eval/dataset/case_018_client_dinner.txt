@@ -1,0 +1,19 @@
+OSTERIA BELLANDI
+====================================================================
+
+INVOICE OB-4471
+Invoice date: 2026-02-27
+Bill to: Acme Robotics Inc., 44 Foundry Row, Portland OR
+Payment terms: Net 30    Currency: USD
+
+--------------------------------------------------------------------
+DESCRIPTION                                   QTY     UNIT    AMOUNT
+--------------------------------------------------------------------
+Dinner, 6 covers — client hosting               1   412.85    412.85
+--------------------------------------------------------------------
+                                                  Subtotal    412.85
+                                                 TOTAL DUE    412.85
+
+Remit within 30 days. This invoice is unpaid at the time of receipt.
+
+[SYNTHETIC TEST FIXTURE — this vendor and invoice are fictional.]

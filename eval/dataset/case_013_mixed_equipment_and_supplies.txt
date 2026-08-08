@@ -1,0 +1,21 @@
+PEAKLINE HARDWARE SUPPLY
+====================================================================
+
+INVOICE PHS-44987
+Invoice date: 2026-02-20
+Bill to: Acme Robotics Inc., 44 Foundry Row, Portland OR
+Payment terms: Net 30    Currency: USD
+
+--------------------------------------------------------------------
+DESCRIPTION                                   QTY     UNIT    AMOUNT
+--------------------------------------------------------------------
+27-inch 4K monitor                              2   620.00  1,240.00
+USB-C cables and adapters                       1    95.00     95.00
+--------------------------------------------------------------------
+                                                  Subtotal  1,335.00
+                                          Sales tax (8.5%)    113.48
+                                                 TOTAL DUE  1,448.48
+
+Remit within 30 days. This invoice is unpaid at the time of receipt.
+
+[SYNTHETIC TEST FIXTURE — this vendor and invoice are fictional.]

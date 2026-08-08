@@ -1,0 +1,20 @@
+BRAEMAR DIGITAL LTD.
+====================================================================
+
+INVOICE BD-3312
+Invoice date: 2026-02-10
+Bill to: Acme Robotics Inc., 44 Foundry Row, Portland OR
+Payment terms: Net 30    Currency: USD
+
+--------------------------------------------------------------------
+DESCRIPTION                                   QTY     UNIT    AMOUNT
+--------------------------------------------------------------------
+Analytics platform licence — Q1 2026            1   900.00    900.00
+Implementation consulting, 8 hours              8   200.00  1,600.00
+--------------------------------------------------------------------
+                                                  Subtotal  2,500.00
+                                                 TOTAL DUE  2,500.00
+
+Remit within 30 days. This invoice is unpaid at the time of receipt.
+
+[SYNTHETIC TEST FIXTURE — this vendor and invoice are fictional.]

@@ -1,0 +1,20 @@
+MERIDIAN BANK, COMMERCIAL SERVICES
+====================================================================
+
+INVOICE MB-FEB-2026
+Invoice date: 2026-02-28
+Bill to: Acme Robotics Inc., 44 Foundry Row, Portland OR
+Payment terms: Net 30    Currency: USD
+
+--------------------------------------------------------------------
+DESCRIPTION                                   QTY     UNIT    AMOUNT
+--------------------------------------------------------------------
+Outbound wire transfer fees, 3 transfers        3    15.00     45.00
+Foreign exchange spread, USD/EUR settlement     1   128.40    128.40
+--------------------------------------------------------------------
+                                                  Subtotal    173.40
+                                                 TOTAL DUE    173.40
+
+Remit within 30 days. This invoice is unpaid at the time of receipt.
+
+[SYNTHETIC TEST FIXTURE — this vendor and invoice are fictional.]

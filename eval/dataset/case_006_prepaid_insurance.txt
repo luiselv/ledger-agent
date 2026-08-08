@@ -1,0 +1,20 @@
+IRONVALE INSURANCE GROUP
+====================================================================
+
+INVOICE IIG-77120
+Invoice date: 2026-02-11
+Bill to: Acme Robotics Inc., 44 Foundry Row, Portland OR
+Payment terms: Net 30    Currency: USD
+
+--------------------------------------------------------------------
+DESCRIPTION                                   QTY     UNIT    AMOUNT
+--------------------------------------------------------------------
+General liability policy, coverage 01 Mar 2     1 6,000.00  6,000.00
+026 - 28 Feb 2027                           
+--------------------------------------------------------------------
+                                                  Subtotal  6,000.00
+                                                 TOTAL DUE  6,000.00
+
+Remit within 30 days. This invoice is unpaid at the time of receipt.
+
+[SYNTHETIC TEST FIXTURE — this vendor and invoice are fictional.]

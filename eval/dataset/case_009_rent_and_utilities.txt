@@ -1,0 +1,20 @@
+HARBORSTONE PROPERTIES
+====================================================================
+
+INVOICE HP-0226
+Invoice date: 2026-02-14
+Bill to: Acme Robotics Inc., 44 Foundry Row, Portland OR
+Payment terms: Net 30    Currency: USD
+
+--------------------------------------------------------------------
+DESCRIPTION                                   QTY     UNIT    AMOUNT
+--------------------------------------------------------------------
+Office rent — February 2026, Suite 400          1 5,200.00  5,200.00
+Electricity, common area charge                 1   340.00    340.00
+--------------------------------------------------------------------
+                                                  Subtotal  5,540.00
+                                                 TOTAL DUE  5,540.00
+
+Remit within 30 days. This invoice is unpaid at the time of receipt.
+
+[SYNTHETIC TEST FIXTURE — this vendor and invoice are fictional.]
