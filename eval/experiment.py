@@ -21,6 +21,7 @@ from pathlib import Path
 from eval.harness import load_cases, run_config
 from eval.metrics import RunReport, render_comparison
 from ledger_agent.agent import AgentConfig
+from ledger_agent.env import load_dotenv
 
 RESULTS = Path(__file__).parent.parent / "results"
 
@@ -73,6 +74,7 @@ def render_report(reports: list[RunReport], case_count: int) -> str:
 
 
 def main() -> int:
+    load_dotenv()
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--limit", type=int, default=None, help="Score only the first N cases.")
     parser.add_argument("--concurrency", type=int, default=4)

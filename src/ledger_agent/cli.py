@@ -15,9 +15,11 @@ from pathlib import Path
 
 from ledger_agent.agent import DEFAULT_MODEL, AgentConfig, run_agent
 from ledger_agent.chart_of_accounts import get_account
+from ledger_agent.env import load_dotenv
 
 
 def main() -> int:
+    load_dotenv()
     parser = argparse.ArgumentParser(description="Post one invoice as a journal entry.")
     parser.add_argument("invoice", type=Path, help="Path to a file containing invoice text.")
     parser.add_argument("--model", default=DEFAULT_MODEL)

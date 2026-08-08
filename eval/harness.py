@@ -17,6 +17,7 @@ from pathlib import Path
 
 from eval.metrics import CaseOutcome, RunReport, score_case
 from ledger_agent.agent import DEFAULT_MODEL, AgentConfig, run_agent
+from ledger_agent.env import load_dotenv
 
 DATASET_DIR = Path(__file__).parent / "dataset"
 MANIFEST = DATASET_DIR / "labels.json"
@@ -92,6 +93,7 @@ def run_config(
 
 
 def main() -> int:
+    load_dotenv()
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--model", default=DEFAULT_MODEL)
     parser.add_argument("--name", default=None, help="Label for this run in the report.")

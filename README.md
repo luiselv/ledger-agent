@@ -162,11 +162,14 @@ dataset itself: that every invoice's arithmetic closes, that no label references
 non-existent account, that the tax label matches the tax line. If the ground truth is
 wrong, every number downstream is measuring the dataset's bugs instead of the agent's.
 
-With an API key — one invoice, showing the agent's work:
+With an API key — copy the sample and fill it in (or just export the variable; a real
+environment variable always wins over the file):
 
 ```bash
-export ANTHROPIC_API_KEY=sk-ant-...
+cp .env.example .env
 ```
+
+One invoice, showing the agent's work:
 
 ```bash
 uv run python -m ledger_agent.cli eval/dataset/case_013_mixed_equipment_and_supplies.txt
